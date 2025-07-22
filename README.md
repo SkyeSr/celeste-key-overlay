@@ -12,6 +12,7 @@ A custom key overlay built with Electron and Python for displaying real-time key
 ## Screenshot
 
 ![Preview](assets/main.png)
+
 ![Preview](assets/edit.png)
 
 ## Getting Started

@@ -63,7 +63,7 @@ function createWindow() {
 function createKeybindEditor() {
   const editorWindow = new BrowserWindow({
     width: 650,
-    height: 847,
+    height: 850,
     title: "Edit Keybinds",
     autoHideMenuBar: true,
     resizable: true,
