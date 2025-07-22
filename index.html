@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Celeste Key Overlay</title>
+</head>
+<body>
+    <div class="keyboard-layout">
+        <div class="key" id="arrow-right"><img src="assets/arrow.png" height="50px"></div>
+        <div class="key" id="arrow-left"><img src="assets/arrow.png" height="50px" style="transform: rotate(180deg);"></div>
+        <div class="key" id="arrow-up"><img src="assets/arrow.png" height="50px" style="transform: rotate(270deg);"></div>
+        <div class="key" id="arrow-down"><img src="assets/arrow.png" height="50px" style="transform: rotate(90deg);"></div>
+
+        <div class="key" id="demo"><img src="assets/demo.png" height="65px" style="transform: translate(10px);"></div>
+        <div class="key" id="pause"><img src="assets/pause.webp" height="50px"></div>
+        <div class="long-key" id="jump2"><img src="assets/spacejump.png" height="50px"></div>
+        <div class="key" id="grab"><img src="assets/grab.png" height="50px" style="transform: translate(8px);"></div>
+        <div class="key" id="dash"><img src="assets/dash.png" height="50px" style="transform: translate(5px);"></div>
+        <div class="key" id="jump1"><img src="assets/cjump.png" height="70px" style="transform: translateY(-8px);"></div>
+        <div class="key" id="pj"><img src="assets/pj.png" height="70px" style="transform: translateY(-8px);"></div>
+    </div>
+
+    <script src="script.js"></script>
+    <script>
+        // To prevent the user from dragging the images out of the window
+        document.addEventListener('dragstart', (event) => {
+        if (event.target.tagName === 'IMG') {
+            event.preventDefault();
+            }
+        });
+    </script>
+</body>
+</html>

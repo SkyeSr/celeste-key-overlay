@@ -1,0 +1,16 @@
+# Node and Python environments
+node_modules/
+.venv/
+
+# Build output
+dist/
+out/
+
+# Logs and temp files
+*.log
+.DS_Store
+
+# OS or editor files
+*.swp
+*.swo
+*.bak

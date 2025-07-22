@@ -1,0 +1,13 @@
+{
+  "arrowright": "arrow-right",
+  "arrowleft": "arrow-left",
+  "arrowup": "arrow-up",
+  "arrowdown": "arrow-down",
+  "d": "demo",
+  "control": "pause",
+  " ": "jump2",
+  "z": "grab",
+  "x": "dash",
+  "c": "jump1",
+  "s": "pj"
+}
